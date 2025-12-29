@@ -36,8 +36,8 @@ Next, I created a virtual host configuration file for the domain at
 
 
 I then created the directory /var/www/mydomain.se and added an index.html file.
-The site was enabled using a2ensite mydomain.se.conf, followed by
-systemctl reload apache2.
+The site was enabled using *a2ensite mydomain.se.conf*, followed by
+*systemctl reload apache2*.
 
 ## Cloudflare Tunnel
 
